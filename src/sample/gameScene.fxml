@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="650.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller2">
+   <children>
+      <Button layoutX="206.0" layoutY="558.0" mnemonicParsing="false" onAction="#changeScene" prefHeight="63.0" prefWidth="432.0" text="TRY ANOTHER WORD" textFill="#d0184c">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="img" fitHeight="327.0" fitWidth="409.0" layoutX="342.0" layoutY="16.0">
+         <image>
+            <Image url="@images/1.png" />
+         </image>
+         <effect>
+            <ColorAdjust brightness="-0.04" />
+         </effect>
+      </ImageView>
+      <Label layoutX="45.0" layoutY="39.0" prefHeight="72.0" prefWidth="297.0" text="HANGMAN GAME" textFill="#ff0000"
+             underline="true">
+         <font>
+            <Font name="System Bold" size="34.0" />
+         </font>
+      </Label>
+      <Label fx:id="hint_label" layoutX="43.0" layoutY="228.0" text="HINTS: " textFill="RED">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tf1" editable="false" layoutX="332.0" layoutY="384.0" prefHeight="40.0" prefWidth="40.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tf2" editable="false" layoutX="382.0" layoutY="384.0" prefHeight="40.0" prefWidth="40.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tf3" editable="false" layoutX="433.0" layoutY="384.0" prefHeight="40.0" prefWidth="40.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tf4" editable="false" layoutX="481.0" layoutY="384.0" prefHeight="40.0" prefWidth="40.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tf5" editable="false" layoutX="531.0" layoutY="384.0" prefHeight="40.0" prefWidth="40.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tf6" editable="false" layoutX="581.0" layoutY="384.0" prefHeight="40.0" prefWidth="40.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tf7" editable="false" layoutX="635.0" layoutY="384.0" prefHeight="40.0" prefWidth="40.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tf8" editable="false" layoutX="686.0" layoutY="384.0" prefHeight="40.0" prefWidth="40.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Label layoutX="67.0" layoutY="381.0" text="Guess the word :">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <TextField fx:id="input" layoutX="352.0" layoutY="476.0" prefHeight="51.0" prefWidth="57.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <Label layoutX="67.0" layoutY="479.0" text="Enter a Letter :">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <Button layoutX="448.0" layoutY="476.0" mnemonicParsing="false" onAction="#CheckInput" prefHeight="51.0" prefWidth="189.0" text="Check">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <TextArea editable="false" layoutX="45.0" layoutY="124.0" prefHeight="79.0" prefWidth="297.0" text="Rules: You have to enter a uppercase letter&#10;one by one to guess the word and note that &#10;you can enter maximum six wrong input.">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextArea>
+      <Label fx:id="letter_count" layoutX="94.0" layoutY="312.0">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="hint" layoutX="90.0" layoutY="273.0">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
