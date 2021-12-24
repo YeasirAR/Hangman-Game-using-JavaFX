@@ -3,10 +3,7 @@ of the HANGMAN Game that I’ve made using JAVA FX and Scene Builder.</span></p>
 
 <p class="MsoNoSpacing" style="text-align: justify; text-justify: inter-ideograph;"><span style="font-family: &quot;Cambria&quot;,serif; font-size: 12pt; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-fareast-font-family: &quot;Times New Roman&quot;;">Whole Project Here: </span><span class="MsoHyperlink"><span style="font-size: 12pt;"><a href="https://github.com/YeasirAR/Hangman-Game-using-JavaFX">HANGMANGAME</a></span></span></p>
 
-<p class="MsoNoSpacing" style="margin-left: 0.25in; mso-list: l2 level1 lfo1; text-align: justify; text-indent: -0.25in; text-justify: inter-ideograph;"><a name="game_logic"><!--[if !supportLists]--><span class="MsoIntenseReference"><span style="font-family: Wingdings; font-size: 14pt;">v<span style="font-family: &quot;Times New Roman&quot;; font-size: 7pt; font-stretch: normal; font-variant-east-asian: normal; font-variant-numeric: normal; line-height: normal;"> </span></span></span><!--[endif]--><span class="MsoIntenseReference"><span style="font-size: 14pt; mso-bidi-font-size: 11.0pt;">Game Logic: <o:p></o:p></span></span></a></p>
-
-
-
+### Game Logic:
 <p class="MsoNoSpacing" style="margin-left: 0.5in; mso-list: l1 level1 lfo2; text-align: justify; text-indent: -0.25in; text-justify: inter-ideograph;"><!--[if !supportLists]--><span style="color: #4472c4; font-family: Wingdings; font-size: 14pt; font-variant-caps: small-caps; font-variant-east-asian: normal; font-variant-numeric: normal; letter-spacing: 0.25pt;">§<span style="font-family: &quot;Times New Roman&quot;; font-size: 7pt; font-stretch: normal; font-variant-caps: normal; font-variant-east-asian: normal; font-variant-numeric: normal; line-height: normal;">&nbsp; </span></span><!--[endif]--><span style="font-size: 12pt;">First of all the user will be given two hints and he
 needs to guess the word.</span><b><span style="color: #4472c4; font-size: 14pt; font-variant-caps: small-caps; font-variant-east-asian: normal; font-variant-numeric: normal; letter-spacing: 0.25pt;"><o:p></o:p></span></b></p>
 
